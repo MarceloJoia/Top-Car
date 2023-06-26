@@ -1,12 +1,16 @@
-import './App.css'
+import './index.css';
+
+import Header from './componets/Header';
+import Catalog from './routes/Catalogs';
 
 function App() {
 
   return (
     <>
-      <h1>Clear</h1>
+      <Header />
+      <Catalog />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
